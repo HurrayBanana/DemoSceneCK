@@ -14,7 +14,7 @@ These effects should be added to a function that has defined a scene, such as:
 copy and paste the following code to your scene function (after the `newscene()` line). It is explained below.
 
 ```lua
-	timing={showFor=4,showFor=10}
+	timing={showAfter=4,showFor=10}
 	spritedata={sprite=2,x=0,y=0,tileswide=7,tileshigh=8,sx=1,sy=1,transpen=0}
 	addScaledSprite(timing,spritedata)
 ```
