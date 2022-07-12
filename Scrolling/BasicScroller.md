@@ -25,10 +25,11 @@ The message
 ```lua
 --this is the text we want to display which we are calling backdrop
 --The text must be in UPPER CASE
-backdrop="THIS IS MY MESSAGE"
+backdrop="THIS IS MY MESSAGE "
 ``` 
 
 The timing
+You can use clever timing across multiple scrollers to acheive very interesting animation effects
 ```lua
 --showAfter specifies how many seconds to wait before showing the scroller
 --showFor specifies how many seconds to show the scroller
