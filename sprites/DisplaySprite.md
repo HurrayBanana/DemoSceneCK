@@ -11,7 +11,7 @@ These effects should be added to a function that has defined a scene, such as:
 
 ## display a sprite
 
-copy and paste the following code to your scene function (after the newscene line). It is explained below.
+copy and paste the following code to your scene function (after the `newscene()` line). It is explained below.
 
 ```lua
 	timing={showFor=4,showFor=10}
