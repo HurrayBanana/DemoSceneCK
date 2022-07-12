@@ -21,21 +21,21 @@ copy and paste the following code to your scene function (after the newscene lin
 
 **explanation** There are 3 parts to the scrolling data
 
-The message
+#### The message
 ```lua
 --this is the text we want to display which we are calling backdrop
 --The text must be in UPPER CASE
 backdrop="THIS IS MY MESSAGE "
 ``` 
 
-The timing
+#### The timing
 You can use clever timing across multiple scrollers to acheive very interesting animation effects
 ```lua
 --showAfter specifies how many seconds to wait before showing the scroller
 --showFor specifies how many seconds to show the scroller
 timing={showAfter=5,showFor=20}
 ```
-The display parameters
+#### The display parameters
 ```lua
 --x is the starting position, here we want it to start just off the right hand side of the screen
 --txt specifies the message to display (we defined it as backdrop earlier)
