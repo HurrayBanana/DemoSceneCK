@@ -16,7 +16,7 @@ copy and paste the following code to your scene function (after the newscene lin
 	backdrop="THIS IS MY MESSAGE "
 	timing={showAfter=5,showFor=20}
 	scrolldata={x=241,txt=backdrop,c=4,y=10,spd=60,sizex=2,sizey=4}
-	ScrollHTimeLay(timing,scroll)
+	ScrollHTimeLay(timing,scrolldata)
 ```
 
 **explanation** There are 3 parts to the scrolling data
@@ -45,6 +45,13 @@ timing={showAfter=5,showFor=20}
 --sizex is the horizontal scale of each letter (standard letter/sprite is 8 pixels wide)
 --sizey is the vertical scale of each letter (standard letter/sprite is 8 pixels tall)
 scrolldata={x=241,txt=backdrop,c=4,y=10,spd=60,sizex=2,sizey=4}
+```
+
+#### requesting the scrolling effect
+The crucial part is to use your data to control a new scrolling message we do this by calling one of the Scrolling functions in this case, where we give it our timing information and our scrolldata
+
+```lua
+ScrollHTimeLay(timing,scrolldata)
 ```
 
 
