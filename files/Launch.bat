@@ -1,0 +1,1 @@
+tic80 --fs="./" --fullscreen --cmd "import code .\user.lua & import sprites spriteset.png & import tiles tileset.png & load audio sfx & load audio music & run"  
