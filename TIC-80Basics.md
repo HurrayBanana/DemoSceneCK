@@ -13,15 +13,24 @@ sprites are numbered 256-511
  
 
 ## to save graphics  
- 
-
 export sprites spriteset.png 
 
 export tiles tileset.png 
 
 
 ## to reload graphics
-
 import sprites spriteset.png 
 
 import tiles tileset.png 
+
+## to save sfx and music
+
+save audio
+
+## to load sfx and music
+
+load audio sfx
+
+load audio music
+
+you will have to agree to overwrite (current music and sfx)
