@@ -35,6 +35,7 @@ You can use clever timing across multiple scrollers to acheive very interesting 
 --showFor specifies how many seconds to show the scroller
 timing={showAfter=5,showFor=20}
 ```
+
 #### The display parameters
 ```lua
 --x is the starting position, here we want it to start just off the right hand side of the screen
@@ -48,13 +49,11 @@ timing={showAfter=5,showFor=20}
 --trans is the colour to ignore when drawing to the screen don't select 12 as all the text is set in this colour
 scrolldata={y=137,txt=backdrop,c=4,x=80,spd=120,sizex=2,sizey=2,wrap=true,trans=0}
 ```
-```
 
 #### requesting the scrolling effect
 The crucial part is to use your data to control a new scrolling message we do this by calling one of the Scrolling functions in this case, where we give it our timing information and our scrolldata
 
 ```lua
-
 addScrollerV(timing,scrolldata)
 ```
 
