@@ -46,7 +46,8 @@ timing={showAfter=5,showFor=20}
 --sizex is the horizontal scale of each letter (standard letter/sprite is 8 pixels wide)
 --sizey is the vertical scale of each letter (standard letter/sprite is 8 pixels tall)
 --wrap if true tells the system duplicate the text to fill the screen
-	scrolldata={y=137,txt=backdrop,c=4,x=80,spd=120,sizex=2,sizey=2,wrap=true,trans=0}
+--trans is the colour to ignore when drawing to the screen don't select 12 as all the text is set in this colour
+scrolldata={y=137,txt=backdrop,c=4,x=80,spd=120,sizex=2,sizey=2,wrap=true,trans=0}
 ```
 
 #### requesting the scrolling effect
