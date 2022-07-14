@@ -2,7 +2,7 @@
 
 We can create a cartridge that is stored as a PNG image file such as:
 
-![Example cartridge](../main/assets/cartexample.png)
+![Example cartridge](https://github.com/HurrayBanana/DemoSceneCK/blob/main/assets/cartexample.png)
 
 This can then be easily shared with somebody else. To set this up and save the cartridge we have to do a couple of things
 
