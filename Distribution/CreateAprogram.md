@@ -34,5 +34,5 @@ export rpi mydemo
 
 #### Linux
 ```lua
-export lunix mydemo
+export linux mydemo
 ```
